@@ -1,0 +1,68 @@
+import type { Look } from '@/types'
+
+export const mockLooks: Look[] = [
+  {
+    id: 'l1',
+    title: 'Midnight Gala',
+    subtitle: 'Smoky liner + molten highlight',
+    imageUrl: 'https://picsum.photos/seed/look1/600/800',
+    filter: 'trending',
+    usesMyProducts: false,
+  },
+  {
+    id: 'l2',
+    title: 'Desk to Dinner',
+    subtitle: 'Soft rosé lip from your bag',
+    imageUrl: 'https://picsum.photos/seed/look2/600/800',
+    filter: 'myProducts',
+    usesMyProducts: true,
+  },
+  {
+    id: 'l3',
+    title: 'Sunset Bronze',
+    subtitle: 'Warm cheek draping',
+    imageUrl: 'https://picsum.photos/seed/look3/600/800',
+    filter: 'trending',
+    usesMyProducts: false,
+  },
+  {
+    id: 'l4',
+    title: 'Dreamscape Bloom',
+    subtitle: 'Pastel AI fantasy glam',
+    imageUrl: 'https://picsum.photos/seed/look4/600/800',
+    filter: 'customAi',
+    usesMyProducts: false,
+  },
+  {
+    id: 'l5',
+    title: 'Parisienne Minimal',
+    subtitle: 'Velvet lip + bare lid',
+    imageUrl: 'https://picsum.photos/seed/look5/600/800',
+    filter: 'myProducts',
+    usesMyProducts: true,
+  },
+  {
+    id: 'l6',
+    title: 'Glass Ribbon Eyes',
+    subtitle: 'Crystal liner experiment',
+    imageUrl: 'https://picsum.photos/seed/look6/600/800',
+    filter: 'customAi',
+    usesMyProducts: false,
+  },
+  {
+    id: 'l7',
+    title: 'Cherry Vinyl',
+    subtitle: 'High shine editorial lip',
+    imageUrl: 'https://picsum.photos/seed/look7/600/800',
+    filter: 'trending',
+    usesMyProducts: false,
+  },
+  {
+    id: 'l8',
+    title: 'Studio Matte Base',
+    subtitle: 'Built from your complexion staples',
+    imageUrl: 'https://picsum.photos/seed/look8/600/800',
+    filter: 'myProducts',
+    usesMyProducts: true,
+  },
+]

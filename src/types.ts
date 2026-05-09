@@ -19,6 +19,24 @@ export interface Look {
   usesMyProducts: boolean
 }
 
+export type LookStepDensity = 'sheer' | 'light' | 'medium' | 'full'
+export type LookStepOpacity = 'low' | 'medium' | 'high'
+
+export interface GeneratedLookStep {
+  product: string
+  tool: string
+  technique: string
+  density: LookStepDensity
+  opacity: LookStepOpacity
+  directions: string
+}
+
+export interface GeneratedLook {
+  look_name: string
+  vibe: string
+  steps: GeneratedLookStep[]
+}
+
 export interface SavedLook {
   id: string
   title: string
